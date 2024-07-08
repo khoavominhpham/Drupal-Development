@@ -128,9 +128,9 @@
             'dev_requirement' => false,
         ),
         'dflydev/dot-access-data' => array(
-            'pretty_version' => 'v3.0.2',
-            'version' => '3.0.2.0',
-            'reference' => 'f41715465d65213d644d3141a6a93081be5d3549',
+            'pretty_version' => 'v3.0.3',
+            'version' => '3.0.3.0',
+            'reference' => 'a23a2bf4f31d3518f3ecb38660c95715dfead60f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../dflydev/dot-access-data',
             'aliases' => array(),
@@ -173,9 +173,9 @@
             'dev_requirement' => false,
         ),
         'drupal/core' => array(
-            'pretty_version' => '10.3.0',
-            'version' => '10.3.0.0',
-            'reference' => '6f1af3070110d7d0f2a6671bea26add34667f765',
+            'pretty_version' => '10.3.1',
+            'version' => '10.3.1.0',
+            'reference' => 'd137403a30d4154404e473785f48dfc889d77e23',
             'type' => 'drupal-core',
             'install_path' => __DIR__ . '/../../web/core',
             'aliases' => array(),
@@ -184,24 +184,24 @@
         'drupal/core-annotation' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-assertion' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-class-finder' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-composer-scaffold' => array(
-            'pretty_version' => '10.3.0',
-            'version' => '10.3.0.0',
+            'pretty_version' => '10.3.1',
+            'version' => '10.3.1.0',
             'reference' => 'a1a186caeb89899143e0c6912ccee9d3d7181dbe',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../drupal/core-composer-scaffold',
@@ -211,90 +211,90 @@
         'drupal/core-datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-dependency-injection' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-diff' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-discovery' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-event-dispatcher' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-file-cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-file-security' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-filesystem' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-front-matter' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-gettext' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-graph' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-http-foundation' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-php-storage' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-plugin' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-project-message' => array(
-            'pretty_version' => '10.3.0',
-            'version' => '10.3.0.0',
+            'pretty_version' => '10.3.1',
+            'version' => '10.3.1.0',
             'reference' => 'd1da83722735cb0f7ccabf9fef7b5607b442c3a8',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../drupal/core-project-message',
@@ -304,13 +304,13 @@
         'drupal/core-proxy-builder' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-recommended' => array(
-            'pretty_version' => '10.3.0',
-            'version' => '10.3.0.0',
-            'reference' => '991f849f74e585597b1f7b11daf9acf79b546939',
+            'pretty_version' => '10.3.1',
+            'version' => '10.3.1.0',
+            'reference' => 'a5183f2be315b7e5deec89fdeafe9fc9a2e54f57',
             'type' => 'metapackage',
             'install_path' => null,
             'aliases' => array(),
@@ -319,38 +319,56 @@
         'drupal/core-render' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-serialization' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-transliteration' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-utility' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-uuid' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
         ),
         'drupal/core-version' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '10.3.0',
+                0 => '10.3.1',
             ),
+        ),
+        'drupal/gin' => array(
+            'pretty_version' => '3.0.0-rc13',
+            'version' => '3.0.0.0-RC13',
+            'reference' => '8.x-3.0-rc13',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/gin',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/gin_toolbar' => array(
+            'pretty_version' => '1.0.0-rc6',
+            'version' => '1.0.0.0-RC6',
+            'reference' => '8.x-1.0-rc6',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/gin_toolbar',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/recommended-project' => array(
             'pretty_version' => '1.0.0+no-version-set',
