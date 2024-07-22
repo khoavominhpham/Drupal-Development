@@ -1,0 +1,19 @@
+uuid: 20006d13-ccc3-4a59-a7a8-941f5de05383
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_oembed_video_1
+    - media.type.external_video
+id: media.external_video.field_media_oembed_video_1
+field_name: field_media_oembed_video_1
+entity_type: media
+bundle: external_video
+label: 'Remote video URL'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

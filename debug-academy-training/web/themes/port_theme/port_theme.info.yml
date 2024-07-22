@@ -1,0 +1,33 @@
+name: port_theme
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - port_theme/base
+  - port_theme/messages
+  - core/normalize
+  - port_theme/global
+libraries-extend:
+  user/drupal.user:
+    - port_theme/user
+  core/drupal.dropbutton:
+    - port_theme/dropbutton
+  core/drupal.dialog:
+    - port_theme/dialog
+  file/drupal.file:
+    - port_theme/file
+  core/drupal.progress:
+    - port_theme/progress
+description: ''
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.3.0'
+regions:
+  logo: Logo
+  menu: Menu
+  title: Title
+  highlighted: Highlighted
+  left: 'Left Sidebar'
+  content: 'Main Content'
+  right: 'Right Sidebar'
+  above_footer: 'Above Footer'
+  footer: Footer

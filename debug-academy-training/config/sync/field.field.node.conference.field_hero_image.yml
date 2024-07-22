@@ -1,4 +1,4 @@
-uuid: 5c7001dc-f1be-451b-a99f-e88469d1f9d9
+uuid: b01488e8-116e-4fe5-b89e-d449b07b96c8
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ id: node.conference.field_hero_image
 field_name: field_hero_image
 entity_type: node
 bundle: conference
-label: 'Hero image'
+label: 'Hero Image'
 description: ''
 required: false
 translatable: false

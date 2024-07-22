@@ -1,0 +1,20 @@
+uuid: a0811775-b4fb-43b0-9003-65e51146fa91
+langcode: en
+status: true
+dependencies:
+  theme:
+    - port_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: port_theme_page_title
+theme: port_theme
+region: title
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

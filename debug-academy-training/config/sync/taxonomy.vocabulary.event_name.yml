@@ -1,9 +1,9 @@
-uuid: 6fc6ea39-aff0-42ef-a385-f09697299d1d
+uuid: 645f048b-49b2-4f85-956c-11ce62624aeb
 langcode: en
 status: true
 dependencies: {  }
-name: 'Event name'
+name: 'Event Name'
 vid: event_name
-description: ' You must create the "Event type" taxonomy type before creating the "Event name" taxonomy type.'
+description: 'Name of the event'
 weight: 0
 new_revision: false

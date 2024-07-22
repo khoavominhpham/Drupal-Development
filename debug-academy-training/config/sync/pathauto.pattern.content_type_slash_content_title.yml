@@ -1,0 +1,14 @@
+uuid: 53132b93-bc54-46de-acfa-474545ca375a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: content_type_slash_content_title
+label: 'content type slash content title'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

@@ -1,0 +1,21 @@
+uuid: 14e1be80-70fc-49bd-b03e-aac19c8bdd51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_featured_video
+    - media.type.external_video
+id: media.external_video.field_featured_video
+field_name: field_featured_video
+entity_type: media
+bundle: external_video
+label: Featured
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,29 @@
+uuid: ce0d0c3d-07c4-4c96-81e1-3d6e18137637
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_version
+    - media.type.external_video
+    - taxonomy.vocabulary.version
+id: media.external_video.field_version
+field_name: field_version
+entity_type: media
+bundle: external_video
+label: Version
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      version: version
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

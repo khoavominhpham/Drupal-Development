@@ -1,4 +1,4 @@
-uuid: 289d9129-833d-43b1-a99e-6fdc9007de7d
+uuid: 41bf6370-cbba-4b98-bc63-2dc2d33cf590
 langcode: en
 status: true
 dependencies:
@@ -20,8 +20,8 @@ content:
     type: image
     label: hidden
     settings:
-      image_style: thumbnail
       image_link: ''
+      image_style: thumbnail
       image_loading:
         attribute: lazy
     third_party_settings: {  }

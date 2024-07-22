@@ -1,12 +1,12 @@
-uuid: 09c32867-2caa-4edc-b137-8735cf71c8e2
+uuid: bc8071e3-48c8-4786-87c4-dbab0d0586c6
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.conference.body
     - field.field.node.conference.field_address
+    - field.field.node.conference.field_contact_email
     - field.field.node.conference.field_date
-    - field.field.node.conference.field_email
     - field.field.node.conference.field_event_name
     - field.field.node.conference.field_featured
     - field.field.node.conference.field_hero_image
@@ -39,21 +39,21 @@ content:
     third_party_settings: {  }
     weight: 102
     region: content
+  field_contact_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 111
+    region: content
   field_date:
     type: datetime_default
     label: above
     settings:
       timezone_override: ''
-      format_type: medium
+      format_type: medium_date_no_time
     third_party_settings: {  }
-    weight: 109
-    region: content
-  field_email:
-    type: basic_string
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 103
+    weight: 107
     region: content
   field_event_name:
     type: entity_reference_label
@@ -80,7 +80,7 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 106
+    weight: 109
     region: content
   field_logo:
     type: entity_reference_entity_view
@@ -89,7 +89,7 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 107
+    weight: 110
     region: content
   field_slogan:
     type: string
@@ -97,7 +97,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 108
+    weight: 106
     region: content
   field_website:
     type: link
@@ -109,7 +109,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 110
+    weight: 108
     region: content
   links:
     settings: {  }

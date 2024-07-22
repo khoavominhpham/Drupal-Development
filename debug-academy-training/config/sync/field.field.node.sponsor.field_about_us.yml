@@ -1,0 +1,22 @@
+uuid: 96425cd9-dc92-470c-b69c-7d965f47d7a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_us
+    - node.type.sponsor
+  module:
+    - text
+id: node.sponsor.field_about_us
+field_name: field_about_us
+entity_type: node
+bundle: sponsor
+label: 'About Us'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,4 +1,4 @@
-uuid: d5414fca-48f1-4758-a69b-ef2b3c8e0c1d
+uuid: 45a30bd7-9341-4ef5-ba19-a25ca3721e8f
 langcode: en
 status: true
 dependencies:
@@ -249,13 +249,13 @@ display:
       pager:
         type: full
         options:
+          pagination_heading_level: h4
           items_per_page: 50
           tags:
             next: 'Next ›'
             previous: '‹ Previous'
             first: '« First'
             last: 'Last »'
-          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:

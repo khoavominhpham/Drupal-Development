@@ -1,0 +1,23 @@
+uuid: 12aab141-c9ad-4d29-bf07-4b8ceab52f08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website
+    - node.type.sponsor
+  module:
+    - link
+id: node.sponsor.field_website
+field_name: field_website
+entity_type: node
+bundle: sponsor
+label: Website
+description: "Let's get people to a web page with more information about this sponsor"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 16
+field_type: link

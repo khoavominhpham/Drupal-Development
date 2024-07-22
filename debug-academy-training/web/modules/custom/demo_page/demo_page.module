@@ -1,0 +1,76 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function demo_page_theme($existing, $type, $theme, $path)
+{
+  return [
+    'demo_page' => [
+      'variables' => [],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_preprocess().
+ *
+ * Provides variables with sample values for use in demo components.
+ */
+function demo_page_preprocess(&$variables, $hook)
+{
+  $url_options = [
+    'absolute' => TRUE,
+    // 'language' => \Drupal::languageManager()->getCurrentLanguage(),
+  ];
+  $site_url = \Drupal\Core\Url::fromRoute('<front>', [], $url_options)->toString();
+  $module_path = $site_url . \Drupal::service('extension.list.module')->getPath('demo_page');
+  $img_url = $module_path . '/assets/img-medium.png';
+  $large_img_url = $module_path . '/assets/img-large.png';
+
+  $paragraph_plain = 'Incommoda autem et commoda-ita enim estmata et dustmata appello-communia esse voluerunt, paria noluerunt. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantum. Quis contra in illa aetate pudorem, constantiam, etiamsi sua nihil intersit, non tamen diligat?';
+
+  $multiple_paragraphs_formatted = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae similitudo in genere etiam humano apparet. Sed virtutem ipsam inchoavit, nihil amplius. Istic sum, inquit. Rhetorice igitur, inquam, nos mavis quam dialectice disputare? </p>
+
+<ol>
+	<li>Certe, nisi voluptatem tanti aestimaretis.</li>
+	<li>Aufert enim sensus actionemque tollit omnem.</li>
+</ol>
+
+<p><a href="http://loripsum.net/" target="_blank">Tu vero, inquam, ducas licet, si sequetur;</a> Duo Reges: constructio interrete. Comprehensum, quod cognitum non habet?</p>
+
+<ul>
+	<li>Incommoda autem et commoda-ita enim estmata et dustmata appello-communia esse voluerunt, paria noluerunt.</li>
+	<li>Quis contra in illa aetate pudorem, constantiam, etiamsi sua nihil intersit, non tamen diligat?</li>
+</ul>
+
+<p>Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantum</p>';
+  $demo_variables = [
+    'demo_word' => _demo_page_markup('Similitudo'),
+    'demo_sentence_plain' => _demo_page_markup('Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+    'demo_paragraph_plain' => _demo_page_markup($paragraph_plain),
+    'demo_sentence_formatted' => _demo_page_markup('<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>'),
+    'demo_paragraph_formatted' => _demo_page_markup('<p>' . $paragraph_plain . '</p>'),
+    'demo_multiple_paragraphs_formatted' => _demo_page_markup($multiple_paragraphs_formatted),
+    'demo_image_url' => _demo_page_markup($img_url),
+    'demo_image_html' => _demo_page_markup('<img src="' . $img_url . '" alt="Regular sized image" />'),
+    'demo_large_image_url' => _demo_page_markup($large_img_url),
+    'demo_large_image_html' => _demo_page_markup('<img src="' . $large_img_url . '" alt="Large image" />'),
+    'demo_link_url' => _demo_page_markup('#'),
+    'demo_link_text_html' => _demo_page_markup('<a href="#">Lorem Ipsum</a>'),
+    'demo_link_image_html' => _demo_page_markup('<a href="#"><img src="' . $img_url . '" alt="Regular sized image" /></a>'),
+    'demo_link_large_image_html' => _demo_page_markup('<a href="#"><img src="' . $large_img_url . '" alt="Large image" /></a>'),
+    'demo_link_logo' => _demo_page_markup('<img src="' . $module_path . '/assets/featured_logo.png" alt="Featured Logo" /></a>')
+  ];
+  $variables = array_merge($variables, $demo_variables);
+}
+
+/**
+ * Ensure the HTML renders properly in the twig files.
+ */
+function _demo_page_markup($content)
+{
+  return [
+    '#markup' => $content
+  ];
+}

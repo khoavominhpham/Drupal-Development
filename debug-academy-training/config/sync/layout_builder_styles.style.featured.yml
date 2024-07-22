@@ -1,0 +1,13 @@
+uuid: b688e54b-84bd-4d7b-8a9e-338b704d1150
+langcode: en
+status: true
+dependencies: {  }
+id: featured
+label: Featured
+classes: featured-section
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions:
+  - layout_onecol
+weight: 0

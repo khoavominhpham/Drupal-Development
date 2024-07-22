@@ -1,4 +1,4 @@
-uuid: 37f3c3b7-14c3-4755-bacf-3d90ee3a76a1
+uuid: cc936a28-903e-4e06-bdb9-4e5ce92e0ef8
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ id: taxonomy_term.event_name.field_event_type
 field_name: field_event_type
 entity_type: taxonomy_term
 bundle: event_name
-label: 'Event type'
+label: 'Event Type'
 description: ''
 required: false
 translatable: false

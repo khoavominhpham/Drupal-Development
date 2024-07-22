@@ -1,4 +1,4 @@
-uuid: c27fb8fe-dfd5-4f03-82ef-ef9206b2bd4d
+uuid: ee44103d-4166-4b51-986f-f906b47f730b
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_date
 entity_type: node
 bundle: conference
 label: 'Start Date'
-description: ''
+description: 'Date that the event started'
 required: false
 translatable: false
 default_value: {  }

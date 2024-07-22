@@ -1,0 +1,22 @@
+uuid: a2e969e5-9f78-4990-b755-577b54924042
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - port_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: port_theme_help
+theme: port_theme
+region: highlighted
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

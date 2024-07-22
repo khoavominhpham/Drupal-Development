@@ -1,4 +1,4 @@
-uuid: 45678523-29a7-4d58-bd84-2234a197350e
+uuid: 59b72bb2-c2dd-4126-a387-f4ae45782737
 langcode: en
 status: true
 dependencies:
@@ -20,6 +20,18 @@ default_value_callback: ''
 settings:
   available_countries: {  }
   langcode_override: ''
-  field_overrides: {  }
+  field_overrides:
+    givenName:
+      override: hidden
+    additionalName:
+      override: hidden
+    familyName:
+      override: hidden
+    organization:
+      override: optional
+    addressLine1:
+      override: optional
+    postalCode:
+      override: optional
   fields: {  }
 field_type: address

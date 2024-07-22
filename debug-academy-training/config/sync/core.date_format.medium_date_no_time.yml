@@ -1,0 +1,8 @@
+uuid: b8159b0d-4a53-4d84-8512-bc53844e5114
+langcode: en
+status: true
+dependencies: {  }
+id: medium_date_no_time
+label: 'Medium Date, No Time'
+locked: false
+pattern: 'F j, Y'

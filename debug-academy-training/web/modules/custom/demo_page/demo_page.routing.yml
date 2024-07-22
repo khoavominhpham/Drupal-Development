@@ -1,0 +1,7 @@
+demo.page:
+  path: '/demo'
+  defaults:
+    _title: 'Component demo page'
+    _controller: '\Drupal\demo_page\DemoPageController::render'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,25 @@
+.card_cta {
+  background: hsla(0, 0%, 100%, 0.75);
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e4e4e;
+  a {
+    background-color: rgba(12, 155, 207, 0.1);
+    font-size: 14px;
+    margin-right: 12px;
+    padding: 3px 12px;
+    border-radius: 20px;
+    color: #00598e;
+    text-decoration: none;
+  }
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #061a2e;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+}

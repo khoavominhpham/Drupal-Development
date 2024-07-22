@@ -1,17 +1,27 @@
-uuid: 23a70bc7-7892-43ec-a090-0cc37bc0e22e
+uuid: 81640dbe-c178-4a48-9e26-c935011da118
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.node.page.default
+    - media.type.external_video
+    - media.type.image
     - node.type.article
+    - node.type.conference
     - node.type.page
+    - node.type.sponsor
+    - taxonomy.vocabulary.category
+    - taxonomy.vocabulary.event_name
+    - taxonomy.vocabulary.event_type
     - taxonomy.vocabulary.tags
+    - taxonomy.vocabulary.version
   module:
     - comment
     - contextual
     - file
+    - layout_builder
+    - media
     - node
-    - path
     - system
     - taxonomy
     - toolbar
@@ -26,22 +36,50 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access taxonomy overview'
   - 'access toolbar'
-  - 'administer url aliases'
+  - 'configure editable page node layout overrides'
+  - 'create and edit custom blocks'
   - 'create article content'
+  - 'create conference content'
+  - 'create external_video media'
+  - 'create image media'
+  - 'create media'
   - 'create page content'
+  - 'create sponsor content'
+  - 'create terms in category'
+  - 'create terms in event_name'
+  - 'create terms in event_type'
   - 'create terms in tags'
-  - 'create url aliases'
+  - 'create terms in version'
   - 'delete article revisions'
+  - 'delete conference revisions'
   - 'delete own article content'
+  - 'delete own conference content'
+  - 'delete own external_video media'
   - 'delete own files'
+  - 'delete own image media'
   - 'delete own page content'
+  - 'delete own sponsor content'
   - 'delete page revisions'
+  - 'delete sponsor revisions'
   - 'edit own article content'
   - 'edit own comments'
+  - 'edit own conference content'
+  - 'edit own external_video media'
+  - 'edit own image media'
   - 'edit own page content'
+  - 'edit own sponsor content'
+  - 'edit terms in category'
+  - 'edit terms in event_name'
+  - 'edit terms in event_type'
   - 'edit terms in tags'
+  - 'edit terms in version'
   - 'revert all revisions'
+  - 'update media'
   - 'view all revisions'
+  - 'view any external_video media revisions'
+  - 'view any image media revisions'
   - 'view own unpublished content'
+  - 'view own unpublished media'
   - 'view the administration theme'

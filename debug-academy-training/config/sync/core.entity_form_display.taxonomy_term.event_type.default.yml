@@ -1,10 +1,9 @@
-uuid: e2137ca6-2b14-4575-b725-dec56ecd3e42
+uuid: 3bf9f4df-8a3a-4e84-8446-fe67e21c9af7
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.taxonomy_term.event_type.field_appx_attendee_count
-    - field.field.taxonomy_term.event_type.field_event_type
     - taxonomy.vocabulary.event_type
   module:
     - path
@@ -15,33 +14,23 @@ bundle: event_type
 mode: default
 content:
   description:
-    type: text_textfield
-    weight: 0
+    type: text_textarea
+    weight: 1
     region: content
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
   field_appx_attendee_count:
     type: number
-    weight: 101
+    weight: 2
     region: content
     settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_event_type:
-    type: entity_reference_autocomplete
-    weight: 101
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
       placeholder: ''
     third_party_settings: {  }
   name:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -49,13 +38,13 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 100
+    weight: 4
     region: content
     settings:
       display_label: true

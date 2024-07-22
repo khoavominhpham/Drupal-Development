@@ -1,0 +1,115 @@
+uuid: bb063634-ac08-4209-b785-23171b20cfb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.external_video.field_conference
+    - field.field.media.external_video.field_description
+    - field.field.media.external_video.field_featured_video
+    - field.field.media.external_video.field_media_oembed_video_1
+    - field.field.media.external_video.field_recording_date
+    - field.field.media.external_video.field_speaker
+    - field.field.media.external_video.field_sponsor
+    - field.field.media.external_video.field_version
+    - field.field.media.external_video.field_video_category
+    - field.field.media.external_video.field_video_url
+    - media.type.external_video
+  module:
+    - datetime
+    - media
+id: media.external_video.default
+targetEntityType: media
+bundle: external_video
+mode: default
+content:
+  field_conference:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_featured_video:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_media_oembed_video_1:
+    type: oembed
+    label: visually_hidden
+    settings:
+      max_width: 0
+      max_height: 0
+      loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_recording_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_speaker:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_sponsor:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_version:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_video_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_video_url:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 9
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

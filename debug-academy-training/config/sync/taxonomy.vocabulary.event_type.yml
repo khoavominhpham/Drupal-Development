@@ -1,9 +1,9 @@
-uuid: 6c770178-0487-410c-861d-fdf066840cb5
+uuid: 56a46104-903d-4c0e-8549-e3be5efb3119
 langcode: en
 status: true
 dependencies: {  }
 name: 'Event Type'
 vid: event_type
-description: 'Type (i.e size) of the Drupal conference'
+description: 'Type (i.e size) of the Drupal conference.'
 weight: 0
 new_revision: false

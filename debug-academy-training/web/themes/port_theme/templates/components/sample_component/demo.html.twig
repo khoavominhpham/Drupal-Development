@@ -1,0 +1,42 @@
+{#
+/**
+ * @file
+ * This file demonstrates how to use the component.
+ *
+ * Available variables:
+ *
+ * Field Demo/placeholder values:
+ * - demo_word: A single word (no HTML markup).
+ * - demo_sentence_plain: 1 sentence (no HTML markup).
+ * - demo_paragraph_plain: 1 paragraph (no HTML markup).
+ * - demo_sentence_formatted: 1 sentence (with HTML markup).
+ * - demo_paragraph_formatted: 1 paragraph (with HTML markup).
+ * - demo_multiple_paragraphs_formatted: Multiple paragraphs with HTML, 
+ *   includes lists and links.
+ * - demo_image_url: A plain-text URL to an image.
+ * - demo_image_html: HTML displaying an image.
+ * - demo_large_image_url: A plain-text URL to a large image.
+ * - demo_large_image_html: HTML displaying a large image.
+ * - demo_link_url: A plain-text URL.
+ * - demo_link_text_html: HTML displaying a link (e.g. "Click me").
+ * - demo_link_image_html: HTML displaying a linked image.
+ * - demo_link_large_image_html: HTML displaying a large linked image
+*/
+#}
+
+{# The <hr>'s act as separators between multiple components on the component demo page. #}
+<hr>
+<h2>Sample component</h2>
+<p>The following is what the Sample component looks like (with demo values).</p>
+<hr>
+
+{# 
+  The component:
+#}
+
+{% include '@port_theme/components/sample_component/_sample_component.html.twig' with {
+  thumbnail: demo_link_image_html,
+  text: demo_sentence_plain,
+  body: demo_paragraph_formatted
+} %}
+

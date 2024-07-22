@@ -1,4 +1,4 @@
-uuid: 1c694dfe-81cd-4991-92dd-851695e05667
+uuid: cb79c4df-bd4c-4016-b270-5af0089a48a6
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ third_party_settings:
     parent: ''
 name: Conference
 type: conference
-description: 'Drupal conferences such as DrupalCons and DrupalCamps.'
+description: 'Drupal conferences such as DrupalCons and Drupal Camps'
 help: null
 new_revision: true
-preview_mode: 0
-display_submitted: true
+preview_mode: 1
+display_submitted: false

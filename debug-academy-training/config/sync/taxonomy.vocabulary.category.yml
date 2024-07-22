@@ -1,0 +1,9 @@
+uuid: fc497c71-c13b-428d-aaeb-6582e10fde60
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category
+description: 'Categorizations for videos, such as "Project Management", "Development"'
+weight: 0
+new_revision: false

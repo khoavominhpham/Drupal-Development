@@ -1,4 +1,4 @@
-uuid: 2e44d5a4-c2f7-49a6-8ee5-664029d2344c
+uuid: 6b56c38c-8417-4a69-8fec-6cb007424d4c
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.conference.body
     - field.field.node.conference.field_address
+    - field.field.node.conference.field_contact_email
     - field.field.node.conference.field_date
-    - field.field.node.conference.field_email
     - field.field.node.conference.field_event_name
     - field.field.node.conference.field_featured
     - field.field.node.conference.field_hero_image
@@ -38,8 +38,8 @@ content:
     region: content
 hidden:
   field_address: true
+  field_contact_email: true
   field_date: true
-  field_email: true
   field_event_name: true
   field_featured: true
   field_hero_image: true

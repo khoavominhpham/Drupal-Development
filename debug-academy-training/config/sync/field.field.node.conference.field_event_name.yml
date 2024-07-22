@@ -1,4 +1,4 @@
-uuid: 0dd8daef-ecf6-470a-9b14-08c4e1cc8c99
+uuid: 16ccf260-7a2c-4f66-bb40-fb8922a86644
 langcode: en
 status: true
 dependencies:
@@ -25,5 +25,5 @@ settings:
       field: name
       direction: asc
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: event_name
 field_type: entity_reference

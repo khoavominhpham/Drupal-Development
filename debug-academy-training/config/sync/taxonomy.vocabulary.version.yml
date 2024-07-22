@@ -1,0 +1,9 @@
+uuid: 323bb787-471d-46ef-8a2c-7ceb310f01c7
+langcode: en
+status: true
+dependencies: {  }
+name: Version
+vid: version
+description: 'Software Versions (e.g. Drupal 7, Drupal 10, etc)'
+weight: 0
+new_revision: false

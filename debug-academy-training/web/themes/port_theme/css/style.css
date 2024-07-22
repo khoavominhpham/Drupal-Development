@@ -1,0 +1,126 @@
+/*Layout Builder Styles */
+.card_cta {
+  background: hsla(0, 0%, 100%, 0.75);
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e4e4e;
+}
+.card_cta a {
+  background-color: rgba(12, 155, 207, 0.1);
+  font-size: 14px;
+  margin-right: 12px;
+  padding: 3px 12px;
+  border-radius: 20px;
+  color: #00598e;
+  text-decoration: none;
+}
+.card_cta h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #061a2e;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.featured-section {
+  background-color: #e8edfc;
+  min-height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.featured-section .layout__region--content::before {
+  content: "";
+  background-image: url("../images/drupaltv.png");
+  background-repeat: no-repeat;
+  width: 546px;
+  height: 527px;
+  opacity: 0.1;
+  position: absolute;
+  right: 0;
+}
+
+h1 {
+  font-family: "Brix sans Light", sans-serif;
+  color: #081f2c;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #00598e;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Brix sans Light", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Brix sans Light", sans-serif;
+  color: #081f2c;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+body {
+  margin-bottom: 10px;
+  color: #5a5a5a;
+  font-size: 17px;
+  line-height: 25px;
+  font-family: "Brix sans", sans-serif;
+}
+
+a {
+  transition: all 400ms ease-in-out;
+  font-family: "Brix sans", sans-serif;
+  color: #00598e;
+  font-size: 17px;
+  font-weight: 400;
+  color: #1251e4;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #081f2c;
+}
+
+hr {
+  color: #d6d6d6;
+  border-style: solid;
+}
+
+/*# sourceMappingURL=style.css.map */

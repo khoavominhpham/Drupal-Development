@@ -1,0 +1,45 @@
+uuid: cd7e65cc-4d9f-4db9-b574-d5467a493a53
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.external_video.field_conference
+    - field.field.media.external_video.field_description
+    - field.field.media.external_video.field_featured_video
+    - field.field.media.external_video.field_media_oembed_video_1
+    - field.field.media.external_video.field_recording_date
+    - field.field.media.external_video.field_speaker
+    - field.field.media.external_video.field_sponsor
+    - field.field.media.external_video.field_version
+    - field.field.media.external_video.field_video_category
+    - field.field.media.external_video.field_video_url
+    - media.type.external_video
+id: media.external_video.media_library
+targetEntityType: media
+bundle: external_video
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_conference: true
+  field_description: true
+  field_featured_video: true
+  field_media_oembed_video_1: true
+  field_recording_date: true
+  field_speaker: true
+  field_sponsor: true
+  field_version: true
+  field_video_category: true
+  field_video_url: true
+  path: true
+  status: true
+  uid: true

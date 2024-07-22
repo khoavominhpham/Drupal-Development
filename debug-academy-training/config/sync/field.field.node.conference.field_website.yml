@@ -1,4 +1,4 @@
-uuid: bde9b34e-ab93-419b-b638-9d0bffca9035
+uuid: 143b782b-5a81-4c40-9ced-32092ef10e1e
 langcode: en
 status: true
 dependencies:
@@ -12,17 +12,12 @@ field_name: field_website
 entity_type: node
 bundle: conference
 label: Website
-description: ''
+description: "Let's get people to the web page with more information about this conference"
 required: false
 translatable: false
-default_value:
-  -
-    attributes: {  }
-    uri: 'https://www.google.com/'
-    title: Google
-    options: {  }
+default_value: {  }
 default_value_callback: ''
 settings:
-  title: 2
+  title: 1
   link_type: 16
 field_type: link
