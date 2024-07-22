@@ -1,0 +1,29 @@
+uuid: 0dd8daef-ecf6-470a-9b14-08c4e1cc8c99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_name
+    - node.type.conference
+    - taxonomy.vocabulary.event_name
+id: node.conference.field_event_name
+field_name: field_event_name
+entity_type: node
+bundle: conference
+label: 'Event Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      event_name: event_name
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

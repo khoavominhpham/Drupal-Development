@@ -1,0 +1,18 @@
+uuid: a2276f4d-e40b-424b-952b-da20e125161a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.conference
+id: node.conference.title
+field_name: title
+entity_type: node
+bundle: conference
+label: 'Conference Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

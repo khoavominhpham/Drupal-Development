@@ -1,0 +1,14 @@
+uuid: cfd84f17-5c73-48f2-bd62-bd76c9e0b844
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: type_slash_title
+label: 'Type slash Title'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

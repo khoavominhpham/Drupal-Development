@@ -1,0 +1,11 @@
+uuid: ce213f47-c688-4493-8662-e68359818f24
+langcode: en
+status: true
+dependencies:
+  module:
+    - path_alias
+id: path_alias.token
+label: Token
+description: ''
+targetEntityType: path_alias
+cache: true

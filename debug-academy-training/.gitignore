@@ -22,7 +22,7 @@ web/sites/simpletest
 .vscode/
 .vagrant/
 
-# Ignore .env files as they are personal
+# Ignore .env files as they are personalddev
 .env
 
 
@@ -36,4 +36,4 @@ web/sites/*/services.yml
 .gitattributes
 .gitignore
 .ddev/
-web/
+

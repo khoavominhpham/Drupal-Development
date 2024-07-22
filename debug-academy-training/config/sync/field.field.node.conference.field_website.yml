@@ -1,0 +1,28 @@
+uuid: bde9b34e-ab93-419b-b638-9d0bffca9035
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website
+    - node.type.conference
+  module:
+    - link
+id: node.conference.field_website
+field_name: field_website
+entity_type: node
+bundle: conference
+label: Website
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://www.google.com/'
+    title: Google
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 16
+field_type: link

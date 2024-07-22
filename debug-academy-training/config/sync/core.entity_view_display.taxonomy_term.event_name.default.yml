@@ -1,0 +1,30 @@
+uuid: f3076083-5d4a-4de3-bcb0-5e03d410b401
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.event_name.field_event_type
+    - taxonomy.vocabulary.event_name
+  module:
+    - text
+id: taxonomy_term.event_name.default
+targetEntityType: taxonomy_term
+bundle: event_name
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_event_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

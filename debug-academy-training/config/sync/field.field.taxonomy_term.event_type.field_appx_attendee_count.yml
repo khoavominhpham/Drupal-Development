@@ -1,0 +1,23 @@
+uuid: c37b538d-4818-465a-b79a-5f90d574c9e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_appx_attendee_count
+    - taxonomy.vocabulary.event_type
+id: taxonomy_term.event_type.field_appx_attendee_count
+field_name: field_appx_attendee_count
+entity_type: taxonomy_term
+bundle: event_type
+label: 'Approximate Avg Attendee count'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

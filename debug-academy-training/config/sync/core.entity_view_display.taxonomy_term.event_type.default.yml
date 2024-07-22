@@ -1,0 +1,40 @@
+uuid: 2a2ac98d-f7b5-48f2-9862-854feec6aa34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.event_type.field_appx_attendee_count
+    - field.field.taxonomy_term.event_type.field_event_type
+    - taxonomy.vocabulary.event_type
+  module:
+    - text
+id: taxonomy_term.event_type.default
+targetEntityType: taxonomy_term
+bundle: event_type
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_appx_attendee_count:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_event_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

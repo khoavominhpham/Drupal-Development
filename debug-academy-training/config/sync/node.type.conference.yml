@@ -1,0 +1,17 @@
+uuid: 1c694dfe-81cd-4991-92dd-851695e05667
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Conference
+type: conference
+description: 'Drupal conferences such as DrupalCons and DrupalCamps.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: true
